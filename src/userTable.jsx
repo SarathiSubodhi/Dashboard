@@ -81,11 +81,11 @@ function UserTable({ users, setUsers }) {
                   <input
                     type="integer"
                     name="password"
-                    value={formData.firstName}
+                    value={formData.Password}
                     onChange={handleChange}
                   />
                 ) : (
-                  user.firstName
+                  user.Password
                 )}
               </td>
               <td>
@@ -93,11 +93,11 @@ function UserTable({ users, setUsers }) {
                   <input
                     type="text"
                     name="roll"
-                    value={formData.firstName}
+                    value={formData.roll}
                     onChange={handleChange}
                   />
                 ) : (
-                  user.firstName
+                  user.roll
                 )}
               </td>
               <td>
